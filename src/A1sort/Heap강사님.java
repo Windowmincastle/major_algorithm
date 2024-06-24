@@ -1,8 +1,18 @@
 package A1sort;
 
 import java.util.Arrays;
+import java.util.PriorityQueue;
+import java.util.Queue;
 
 public class Heap강사님 {
+/*
+우선순위큐를 보편적으로 어떤 상황에서 활용하면 좋을까
+
+=> 지속적으로 add하고 poll하는 상황
+
+
+
+ */
 
 
     public static void main(String[] args) {
@@ -23,6 +33,17 @@ public class Heap강사님 {
         }
 
         System.out.println(Arrays.toString(arr));
+
+//        우선순위큐가 정말 힙 구조를 가지고 있는지 테스트 하기 위한 코드
+        int[] ary2 = {7,6,5,8,3,5,9,1,7};
+        Queue<Integer> pq = new PriorityQueue<>();
+
+        for (int i : ary2) {
+            pq.add(i);
+        }
+        System.out.println(pq+ " pq의 정렬");
+        System.out.println(pq.poll());
+
     }
 
     static void heapify(int[] ary, int aryLen, int node) {
@@ -42,7 +63,7 @@ public class Heap강사님 {
                 int temp = ary[node];
                 ary[node] = ary[left];
                 ary[left] = temp;
-                heapify(ary,aryLen, left);
+                heapify(ary,aryLen, left );
             }
         } else {
 //            node,left,right 모두 비교

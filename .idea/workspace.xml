@@ -5,10 +5,23 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bff3910-5997-4d23-b398-c5ee18e9756d" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/uiDesigner.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A1sort/Heap강사님.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A1sort/S1Heapsort구현혼자서.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A1sort/명예의전당.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A1sort/야근지수.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A2dfs/D1Basic.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A2dfs/D1Basic2Pratice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A2dfs/D2Basic_lecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A2dfs/D3Basic_Pratice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A2dfs/D3Basic_lecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A3bfs/B1basic1_lecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A3bfs/B1basic1_pratice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A3bfs/B1basic2_lecture2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A3bfs/B1basic2_praitce.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A3bfs/B1basic3_lecture.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A3bfs/B4가장먼노드.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A3bfs/D4피로도문제.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A3bfs/D4피로도문제_강사님코드.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A1sort/Heap강사님.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A1sort/Heap강사님.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -38,8 +51,16 @@
   </component>
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
+    "Application.B1basic1_pratice.executor": "Run",
+    "Application.B1basic2_praitce.executor": "Run",
+    "Application.B1basic3_lecture.executor": "Debug",
+    "Application.D2Basic_lecture.executor": "Run",
+    "Application.D3Basic_Pratice.executor": "Run",
+    "Application.D3Basic_lecture.executor": "Run",
+    "Application.D4피로도문제.executor": "Debug",
     "Application.Heap강사님.executor": "Run",
     "Application.S1Heapsort구현.executor": "Run",
+    "Application.명예의전당.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -56,14 +77,18 @@
     <key name="CopyFile.RECENT_KEYS">
       <recent name="C:\Users\Playdata\Desktop\java study\major_algori\src\A1sort" />
     </key>
+    <key name="CopyClassDialog.RECENTS_KEY">
+      <recent name="A3bfs" />
+      <recent name="A2dfs" />
+    </key>
   </component>
-  <component name="RunManager" selected="Application.Heap강사님">
-    <configuration name="Heap강사님" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A1sort.Heap강사님" />
+  <component name="RunManager" selected="Application.D4피로도문제">
+    <configuration name="B1basic1_pratice" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A3bfs.B1basic1_pratice" />
       <module name="major_algori" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A1sort.*" />
+          <option name="PATTERN" value="A3bfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -71,19 +96,51 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="Main" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Main" />
+    <configuration name="B1basic2_praitce" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A3bfs.B1basic2_praitce" />
       <module name="major_algori" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A3bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="S1Heapsort구현혼자서" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A1sort.S1Heapsort구현혼자서" />
+    <configuration name="B1basic3_lecture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A3bfs.B1basic3_lecture" />
       <module name="major_algori" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A1sort.*" />
+          <option name="PATTERN" value="A3bfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D3Basic_lecture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A2dfs.D3Basic_lecture" />
+      <module name="major_algori" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A2dfs.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="D4피로도문제" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A3bfs.D4피로도문제" />
+      <module name="major_algori" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A3bfs.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -93,9 +150,11 @@
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="Application.Heap강사님" />
-        <item itemvalue="Application.S1Heapsort구현혼자서" />
-        <item itemvalue="애플리케이션.Main" />
+        <item itemvalue="Application.D4피로도문제" />
+        <item itemvalue="Application.B1basic3_lecture" />
+        <item itemvalue="Application.B1basic2_praitce" />
+        <item itemvalue="Application.B1basic1_pratice" />
+        <item itemvalue="Application.D3Basic_lecture" />
       </list>
     </recent_temporary>
   </component>
