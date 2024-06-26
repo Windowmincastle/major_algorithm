@@ -1,7 +1,6 @@
-package A3bfs;
+package A2dfs;
 
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 public class D4피로도문제 {

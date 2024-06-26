@@ -1,64 +1,56 @@
 package A3bfs;
 
-import java.util.ArrayList;
-import java.util.LinkedList;
-import java.util.List;
-import java.util.Queue;
+import java.util.*;
 
 public class B4가장먼노드 {
-
     static List<List<Integer>> adjList;
     static boolean[] visited;
     static int[] distance;
-    public static int solution(int n, int[][] edge) {
-
-        int answer = 0;
-        adjList = new ArrayList<>();
-        visited = new boolean[n];
-        distance = new int[n];
-
-        for (int i = 0; i < n; i++) {
-            adjList.add(new ArrayList<>());
-        }
-
-        for (int[] e : edge) {
-            adjList.get(e[0]).add(e[1]);
-        }
-
-        answer = bfs(0);
-        return answer;
-    }
-
-    static int bfs(int start) {
-        int max = 0;
-        Queue<Integer> q = new LinkedList<>();
-        q.add(start);
-        visited[start] = true;
-        while (!q.isEmpty()) {
-            int temp = q.poll();
-
-            for (int target : adjList.get(temp)) {
-                q.add(target);
-                visited[target] = true;
-
-            }
-        }
-
-
-        return -1;
-    }
-
     public static void main(String[] args) {
 
+        int[][]edge = {
+                {3, 6}, {4, 3}, {3, 2},
+                {1, 3}, {1, 2}, {2, 4},
+                {5, 2}};
         int n = 6;
-        int [][] vertex = {
-                {3,6},
-                {4,3},
-                {3,2},
-                {1,3},
-                {1,2},
-                {2,4},
-                {5,2}
-        };
+
+        adjList = new ArrayList<>();
+        visited = new boolean[n+1];
+        distance = new int[n+1];
+        Arrays.fill(distance, 1);
+
+        for(int i=0; i<n+1; i++){
+            adjList.add(new ArrayList<>()); // 리스트 내부에 리스트 삽입
+        }
+
+        for(int[] a : edge){
+            adjList.get(a[0]).add(a[1]); // 양방향 연결 노드 표현
+            adjList.get(a[1]).add(a[0]); // 양방향 연결 노드 표현
+        }
+        bfs(1, n); // 1번 노드부터 end 노드까지
+
+        int max = Arrays.stream(distance).max().getAsInt();
+        int count = (int)Arrays.stream(distance).filter(a->a==max).count();
+        System.out.println(count);
+
+    }
+    static void bfs(int start, int end){
+
+        Queue<Integer> queue = new LinkedList<>();
+        queue.add(start);
+        visited[0] = true;
+
+        while (!queue.isEmpty()) {
+            int temp = queue.poll();
+            visited[temp] = true;
+            for (int target : adjList.get(temp)) {
+//                target을 queue에 add하기 전에 true로 세팅
+                if (!visited[target]) {
+                    queue.add(target);
+                    distance[target] = distance[temp] + 1;
+                    visited[target] = true;
+                }
+            }
+        }
     }
 }
