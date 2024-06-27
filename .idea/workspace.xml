@@ -5,26 +5,13 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bff3910-5997-4d23-b398-c5ee18e9756d" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/A2dfs/D4피로도문제_강사님코드.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2dfs/D5네트워크.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2dfs/D6타겟넘버.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A2dfs/D7여행경로.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A3bfs/B5이동BFS.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A3bfs/B6게임맵.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A3bfs/B6게임맵강사님.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A4greedy/G1GreedyBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A4greedy/G2체육복.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A4greedy/G3구명보트.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A5dp/D1DpBasic.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Praitce3.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Soultion.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/Soultion2.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/note.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/pratice.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A4greedy/G3구명보트강사님코드.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A5dp/D2멀리뛰기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A5dp/D3정수삼각형.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A5dp/D4땅따먹기.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A5dp/D5등굣길.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A3bfs/B4가장먼노드.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A3bfs/B4가장먼노드.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A3bfs/D4피로도문제.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A2dfs/D4피로도문제.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A3bfs/D4피로도문제_강사님코드.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A5dp/D1DpBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A5dp/D1DpBasic.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -55,35 +42,38 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent">{
-  &quot;keyToString&quot;: {
-    &quot;Application.B1basic1_pratice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.B1basic2_praitce.executor&quot;: &quot;Run&quot;,
-    &quot;Application.B1basic3_lecture.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.D2Basic_lecture.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D3Basic_Pratice.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D3Basic_lecture.executor&quot;: &quot;Run&quot;,
-    &quot;Application.D4피로도문제.executor&quot;: &quot;Debug&quot;,
-    &quot;Application.Heap강사님.executor&quot;: &quot;Run&quot;,
-    &quot;Application.S1Heapsort구현.executor&quot;: &quot;Run&quot;,
-    &quot;Application.명예의전당.executor&quot;: &quot;Run&quot;,
-    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
-    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
-    &quot;git-widget-placeholder&quot;: &quot;main&quot;,
-    &quot;kotlin-language-version-configured&quot;: &quot;true&quot;,
-    &quot;last_opened_file_path&quot;: &quot;C:/Users/Playdata/Desktop/java study/major_algori/src/A1sort&quot;,
-    &quot;onboarding.tips.debug.path&quot;: &quot;C:/Users/Playdata/Desktop/java study/major_algori/src/Main.java&quot;,
-    &quot;project.structure.last.edited&quot;: &quot;모듈&quot;,
-    &quot;project.structure.proportion&quot;: &quot;0.0&quot;,
-    &quot;project.structure.side.proportion&quot;: &quot;0.0&quot;,
-    &quot;애플리케이션.B5이동BFS.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.D5네트워크.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.Main.executor&quot;: &quot;Run&quot;,
-    &quot;애플리케이션.note.executor&quot;: &quot;Run&quot;
+  <component name="PropertiesComponent"><![CDATA[{
+  "keyToString": {
+    "Application.B1basic1_pratice.executor": "Run",
+    "Application.B1basic2_praitce.executor": "Run",
+    "Application.B1basic3_lecture.executor": "Debug",
+    "Application.D2Basic_lecture.executor": "Run",
+    "Application.D3Basic_Pratice.executor": "Run",
+    "Application.D3Basic_lecture.executor": "Run",
+    "Application.D4피로도문제.executor": "Debug",
+    "Application.Heap강사님.executor": "Run",
+    "Application.S1Heapsort구현.executor": "Run",
+    "Application.명예의전당.executor": "Run",
+    "RunOnceActivity.ShowReadmeOnStart": "true",
+    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
+    "git-widget-placeholder": "main",
+    "kotlin-language-version-configured": "true",
+    "last_opened_file_path": "C:/Users/Playdata/Desktop/java study/major_algori/src/A4greedy",
+    "onboarding.tips.debug.path": "C:/Users/Playdata/Desktop/java study/major_algori/src/Main.java",
+    "project.structure.last.edited": "모듈",
+    "project.structure.proportion": "0.0",
+    "project.structure.side.proportion": "0.0",
+    "애플리케이션.B5이동BFS.executor": "Run",
+    "애플리케이션.D1DpBasic.executor": "Run",
+    "애플리케이션.D5네트워크.executor": "Run",
+    "애플리케이션.D5등굣길.executor": "Run",
+    "애플리케이션.Main.executor": "Run",
+    "애플리케이션.note.executor": "Run"
   }
-}</component>
+}]]></component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\Playdata\Desktop\java study\major_algori\src\A4greedy" />
       <recent name="C:\Users\Playdata\Desktop\java study\major_algori\src\A1sort" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
@@ -94,7 +84,7 @@
       <recent name="A2dfs" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.note">
+  <component name="RunManager" selected="애플리케이션.D5등굣길">
     <configuration name="B5이동BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="A3bfs.B5이동BFS" />
       <module name="major_algori" />
@@ -108,25 +98,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D3Basic_lecture" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A2dfs.D3Basic_lecture" />
+    <configuration name="D1DpBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A5dp.D1DpBasic" />
       <module name="major_algori" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A2dfs.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="D4피로도문제" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A2dfs.D4피로도문제" />
-      <module name="major_algori" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="A2dfs.*" />
+          <option name="PATTERN" value="A5dp.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -147,6 +124,19 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="D5등굣길" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="A5dp.D5등굣길" />
+      <module name="major_algori" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="A5dp.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="note" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="note" />
       <module name="major_algori" />
@@ -156,6 +146,8 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="애플리케이션.D5등굣길" />
+        <item itemvalue="애플리케이션.D1DpBasic" />
         <item itemvalue="애플리케이션.note" />
         <item itemvalue="애플리케이션.D5네트워크" />
         <item itemvalue="애플리케이션.B5이동BFS" />
@@ -172,5 +164,35 @@
       <updated>1718937282538</updated>
     </task>
     <servers />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A5dp/D1DpBasic.java</url>
+          <line>11</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A5dp/D1DpBasic.java</url>
+          <line>29</line>
+          <option name="timeStamp" value="2" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/src/A5dp/D5등굣길.java</url>
+          <line>44</line>
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-method">
+          <url>file://$PROJECT_DIR$/src/A5dp/D5등굣길.java</url>
+          <line>5</line>
+          <properties class="A5dp.D5등굣길" method="main">
+            <option name="EMULATED" value="true" />
+            <option name="WATCH_EXIT" value="false" />
+          </properties>
+          <option name="timeStamp" value="3" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
