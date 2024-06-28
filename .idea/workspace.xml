@@ -5,13 +5,25 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="2bff3910-5997-4d23-b398-c5ee18e9756d" name="변경" comment="">
-      <change afterPath="$PROJECT_DIR$/src/A4greedy/G3구명보트강사님코드.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A5dp/D2멀리뛰기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A5dp/D3정수삼각형.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A5dp/D4땅따먹기.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/A5dp/D5등굣길.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A7이분탐색/B1Basic1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A7이분탐색/B2Basic2.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A7이분탐색/B3Basic3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A7이분탐색/B3입국심사.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/A7이분탐색/B3입국심사_수현님코드.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/OffStduy/숨바꼭질3.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/코딩페스티벌/note1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/코딩페스티벌/아기상어.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/코딩페스티벌/아기상어_수현님코드.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/코딩페스티벌/애너그램.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/코딩페스티벌/오큰수.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/코딩페스티벌/오큰수수현님코드.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/A5dp/D1DpBasic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A5dp/D1DpBasic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A3bfs/B5이동BFS.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A3bfs/B5이동BFS.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A6투포인터/T1Basic.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A6투포인터/T1Basic.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A6투포인터/T2연속된_부분수열의_합.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A6투포인터/T2연속된_부분수열의_합.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A6투포인터/T3숫자의_표현.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A6투포인터/T3숫자의_표현.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/A6투포인터/T4슬라이딩윈도우.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/A6투포인터/T4슬라이딩윈도우.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/note.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/note.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -54,6 +66,7 @@
     "Application.Heap강사님.executor": "Run",
     "Application.S1Heapsort구현.executor": "Run",
     "Application.명예의전당.executor": "Run",
+    "Application.애너그램.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "SHARE_PROJECT_CONFIGURATION_FILES": "true",
     "git-widget-placeholder": "main",
@@ -63,12 +76,23 @@
     "project.structure.last.edited": "모듈",
     "project.structure.proportion": "0.0",
     "project.structure.side.proportion": "0.0",
+    "애플리케이션.B1Basic.executor": "Run",
+    "애플리케이션.B2Basic2.executor": "Run",
+    "애플리케이션.B3입국심사 (1).executor": "Run",
+    "애플리케이션.B3입국심사 (2).executor": "Run",
+    "애플리케이션.B3입국심사.executor": "Run",
     "애플리케이션.B5이동BFS.executor": "Run",
     "애플리케이션.D1DpBasic.executor": "Run",
     "애플리케이션.D5네트워크.executor": "Run",
     "애플리케이션.D5등굣길.executor": "Run",
     "애플리케이션.Main.executor": "Run",
-    "애플리케이션.note.executor": "Run"
+    "애플리케이션.T1Basic.executor": "Run",
+    "애플리케이션.T4슬라이딩윈도우.executor": "Run",
+    "애플리케이션.note.executor": "Run",
+    "애플리케이션.숨바꼭질3.executor": "Run",
+    "애플리케이션.아기상어.executor": "Run",
+    "애플리케이션.오큰수.executor": "Run",
+    "애플리케이션.오큰수수현님코드.executor": "Run"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -84,13 +108,13 @@
       <recent name="A2dfs" />
     </key>
   </component>
-  <component name="RunManager" selected="애플리케이션.D5등굣길">
-    <configuration name="B5이동BFS" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A3bfs.B5이동BFS" />
+  <component name="RunManager" selected="Application.애너그램">
+    <configuration name="아기상어" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="코딩페스티벌.아기상어" />
       <module name="major_algori" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A2dfs.*" />
+          <option name="PATTERN" value="코딩페스티벌.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -98,12 +122,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D1DpBasic" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A5dp.D1DpBasic" />
+    <configuration name="오큰수" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="코딩페스티벌.오큰수" />
       <module name="major_algori" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A5dp.*" />
+          <option name="PATTERN" value="코딩페스티벌.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -111,12 +135,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D5네트워크" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A2dfs.D5네트워크" />
+    <configuration name="숨바꼭질3" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="OffStduy.숨바꼭질3" />
       <module name="major_algori" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A2dfs.*" />
+          <option name="PATTERN" value="OffStduy.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -124,12 +148,12 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="D5등굣길" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="A5dp.D5등굣길" />
+    <configuration name="오큰수수현님코드" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="코딩페스티벌.오큰수수현님코드" />
       <module name="major_algori" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="A5dp.*" />
+          <option name="PATTERN" value="코딩페스티벌.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -137,20 +161,26 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="note" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="note" />
+    <configuration name="애너그램" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="코딩페스티벌.애너그램" />
       <module name="major_algori" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="코딩페스티벌.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="애플리케이션.D5등굣길" />
-        <item itemvalue="애플리케이션.D1DpBasic" />
-        <item itemvalue="애플리케이션.note" />
-        <item itemvalue="애플리케이션.D5네트워크" />
-        <item itemvalue="애플리케이션.B5이동BFS" />
+        <item itemvalue="Application.애너그램" />
+        <item itemvalue="애플리케이션.오큰수수현님코드" />
+        <item itemvalue="애플리케이션.오큰수" />
+        <item itemvalue="애플리케이션.아기상어" />
+        <item itemvalue="애플리케이션.숨바꼭질3" />
       </list>
     </recent_temporary>
   </component>

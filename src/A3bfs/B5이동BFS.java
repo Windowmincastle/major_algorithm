@@ -1,62 +1,38 @@
-package A3bfs;
+package A3BFS;
 
-import java.util.LinkedList;
-import java.util.Queue;
+import java.util.*;
 
-// 6.25일 이 문제 실패했으니까 다음에 다시 풀어보기
 public class B5이동BFS {
 
-    static boolean[] vistied;
-    static Queue<Integer> q;
+    /**
+     * 이동 경로 => +1, -1, *2
+     * start 에서 시작해 target이 되는데 몇step 걸리나 (가장 빠른 횟수)
+     */
     public static void main(String[] args) {
+
         int start = 5;
         int target = 17;
 
-        int ans = bfs(start, target);
-        System.out.println(ans);
+        Queue<int[]> q = new LinkedList<>();
+        int[] visited = new int[100];
 
-//        -1, +1, 현재숫자 *2 ?
-    }
+        q.add(new int[]{start, 0});
+        int[] pollArr = q.poll();
 
-    static int bfs(int s, int target) {
-        int answer = 0;
-        q = new LinkedList<>();
-        vistied = new boolean[target*50];
-
-        q.add(s);
-        vistied[s] = true;
-        int cnt = 0;
-        while (!q.isEmpty()) {
-
-            int temp = q.poll();
-
-            System.out.println(temp+" temp값 찎어보기 ");
-
-            if (temp == target) {
-                return answer;
+        while (true) {
+            if (visited[pollArr[0]] == 0) {
+                q.add(new int[]{pollArr[0] + 1, pollArr[1] + 1});
+                q.add(new int[]{pollArr[0] - 1, pollArr[1] + 1});
+                q.add(new int[]{pollArr[0] * 2, pollArr[1] + 1});
             }
 
-            for (int i = 0; i < 3; i++) {
+            visited[pollArr[0]] = 1;
+            pollArr = q.poll();
 
-                if (!vistied[temp-1]) {
-                    q.add(temp - 1);
-                    vistied[temp] = true;
-                }
-
-                if (!vistied[temp+1]) {
-                    q.add(temp +1);
-                    vistied[temp] = true;
-                }
-
-                if (!vistied[temp*2]) {
-                    q.add(temp*2);
-                    vistied[temp*2] = true;
-                }
-
+            if (pollArr[0] == target) {
+                System.out.println(pollArr[1]);
+                break;
             }
-            answer++;
         }
-
-        return answer;
     }
 }
